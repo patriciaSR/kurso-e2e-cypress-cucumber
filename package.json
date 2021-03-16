@@ -1,0 +1,20 @@
+{
+  "name": "kurso-cypress-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:dashboard": "cypress run --record --key 6ecbd6cf-dea0-40f4-8612-ae11546dee78"
+  },
+  "author": "patriciaSR",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^6.6.0",
+    "cypress-cucumber-preprocessor": "^4.0.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

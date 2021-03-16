@@ -1,0 +1,16 @@
+{
+  "projectId": "anc9up",
+  "baseUrl": "http://zero.webappsecurity.com",
+  "video": false,
+  "defaultCommandTimeout": 5000,
+  "pageLoadTimeout": 10000,
+  "ignoreTestFiles": [
+    "*.js",
+    "*.md"
+  ],
+  "experimentalStudio": true,
+  "retries": {
+    "runMode": 3,
+    "openMode": 1
+  }
+}
